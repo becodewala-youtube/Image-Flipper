@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>IMAGE FLIPPER</title>
+        <link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div id="color-flipper">
+  <div id="front" class="face front">
+    <div class="info">
+     
+      <img src="review-1.jpg" alt=""> </div>
+  </div>
+  <div id="back" class="face back">
+    <div class="info">
+      
+      <img src="review-2.jpg" alt=""></div>
+  </div>
+</div>
+<script>
+    const flipper = document.querySelector("#color-flipper");
+flipper.addEventListener("click", function() {
+  flipper.classList.toggle("flip");
+});
+
+</script>
+	</body>
+</html>
